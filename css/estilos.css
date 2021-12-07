@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: cuatacho;
+  src: url(./fonts/Cuatacho.otf);
+}
+@font-face {
+  font-family: Raleway-Bold;
+  src: url(./fonts/Raleway-Bold.ttf);
+}
+@font-face {
+  font-family: Raleway-Regular;
+  src: url(./fonts/Raleway-Regular.ttf);
+}
+body {
+  background-color: white;
+  font-family: cuatacho;
+}
+
+a:link, a:hover {
+  text-decoration: none;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.outer-container {
+  background: #513973;
+  width: 100%;
+}
+
+.planes {
+  font-family: "Raleway", Regular;
+  color: white;
+  margin: auto;
+  overflow: hidden;
+}
+
+p {
+  font-family: "Raleway", Regular;
+}
+
+h1 {
+  font-family: "Cuatacho", cursive;
+  font-size: 50pt;
+  color: #f2f2f2;
+}
+
+.marcomorado {
+  float: right;
+  border-radius: 2em;
+  border-color: #513973;
+  border-style: solid;
+  border-width: 12px;
+  font-family: "Cuatacho", cursive;
+  color: #C2A1F1;
+  width: 20em;
+  padding: 1em;
+  background-color: white;
+}
+
+.puntos {
+  font-family: "Raleway";
+  font-weight: bolder;
+  color: #C2A1F1;
+  font-size: 200%;
+}
+
+.boton {
+  background-color: #513973;
+  color: white;
+  border-radius: 1em;
+  font-family: "Cuatacho", cursive;
+  padding: 1em;
+  text-align: center;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.textomorado {
+  color: #4D3C72;
+}
+
+.titulomorado {
+  color: #513973 !important;
+  font-size: 100%;
+}
+
+.cuadroblanco {
+  background-color: white;
+  border-radius: 1em;
+  padding: 1em;
+}
+
+.escribir {
+  border-color: #C2A1F1;
+  border-radius: 1em;
+  border-style: solid;
+  border-width: 3px;
+  background-color: white;
+  color: #C2A1F1;
+  margin: 0.5em;
+  padding: 0.2em;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.alebrijedibujo {
+  align-self: flex-end;
+  width: 100%;
+}
+
+#inicio {
+  font-family: "Cuatacho", cursive;
+  text-align: center;
+  font-size: 80pt;
+}
+
+.img-fondo {
+  width: 100%;
+  z-index: 0;
+}
+
+.contenido-tarjeta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #4D3C72;
+  margin: auto;
+  overflow: hidden;
+}
+
+.pie-pagina {
+  background-color: #517dbe;
+  font-family: "Raleway", Bold;
+  margin: 0;
+  padding: 30px 0;
+  text-align: center;
+}
+
+#promociones {
+  width: 100%;
+}
+
+#conocenos {
+  font-family: "Raleway", Regular;
+  font-size: 120%;
+  color: #4D3C72;
+}
+
+/*--------------------------------------------------------------
+# Estilos Scroll
+--------------------------------------------------------------*/
+body::-webkit-scrollbar {
+  width: 10px;
+  background: #262626;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: white, 0.2;
+  border-radius: 10px;
+  border-right: 10px solid #C2A1F1;
+}
+
+.accordion-item {
+  font-family: "Raleway", Regular;
+}

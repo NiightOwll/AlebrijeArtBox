@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: cuatacho;
+  src: url(./fonts/Cuatacho.otf);
+}
+@font-face {
+  font-family: Raleway-Bold;
+  src: url(./fonts/Raleway-Bold.ttf);
+}
+@font-face {
+  font-family: Raleway-Regular;
+  src: url(./fonts/Raleway-Regular.ttf);
+}
+body {
+  background-color: white;
+  font-family: cuatacho;
+}
+
+a:link, a:hover {
+  text-decoration: none;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.outer-container {
+  background: #513973;
+  width: 100%;
+}
+
+.planes {
+  font-family: "Raleway", Regular;
+  color: white;
+  margin: auto;
+  overflow: hidden;
+}
+
+p {
+  font-family: "Raleway", Regular;
+}
+
+h1 {
+  font-family: "Cuatacho", cursive;
+  font-size: 50pt;
+  color: #f2f2f2;
+}
+ h3{
+   font-family: "Raleway", Regular;
+ }
+.marcomorado {
+  float: right;
+  border-radius: 1em;
+  border-color: #513973;
+  border-style: solid;
+  border-width: 7px;
+  font-family: "Cuatacho", cursive;
+  color: #C2A1F1;
+  width: 11em;
+  padding: 1em;
+  background-color: #f2f2f2;
+}
+
+.puntos {
+  color: #C2A1F1;
+}
+
+.boton {
+  background-color: #513973;
+  color: white;
+  border-radius: 1em;
+  font-family: "Cuatacho", cursive;
+  padding: 1em;
+  text-align: center;
+}
+
+.boton:hover {
+  font-family: "Raleway", Regular;
+  opacity: 0.7;
+}
+
+.cancelbtn {
+  width: auto;
+  color:#f2f2f2;
+  font-family: "Raleway", Regular;
+  padding: 10px 18px;
+  border-radius: 15px;
+  background-color: #513973;
+}
+
+.cancelbtn:hover{
+  border-radius: 15px;
+  color:#513973 ;
+  background-color: #C2A1F1;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 30%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+
+.titulo {
+  text-align: center;
+}
+
+.textomorado {
+  color: #4D3C72;
+}
+
+.titulomorado {
+  color: #513973 !important;
+  font-size: 100%;
+}
+
+.cuadroblanco {
+  background-color: white;
+  border-radius: 1em;
+  padding: 1em;
+}
+
+.escribir {
+  border-color: #C2A1F1;
+  border-radius: 1em;
+  border-style: solid;
+  border-width: 3px;
+  background-color: white;
+  color: #C2A1F1;
+  margin: 0.5em;
+  padding: 0.2em;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.alebrijedibujo {
+  align-self: flex-end;
+  width: 100%;
+}
+
+#inicio {
+  font-family: "Cuatacho", cursive;
+  text-align: center;
+  font-size: 80pt;
+}
+
+.img-fondo {
+  width: 100%;
+  z-index: 0;
+}
+
+.contenido-tarjeta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #4D3C72;
+  margin: auto;
+  overflow: hidden;
+}
+
+.pie-pagina {
+  background-color: #517dbe;
+  font-family: "Raleway", Bold;
+  margin: 0;
+  padding: 30px 0;
+  text-align: center;
+}
+
+#conocenos {
+  font-family: "Raleway", Regular;
+  font-size: 120%;
+  color: #4D3C72;
+}
+
+/*--------------------------------------------------------------
+# Estilos Scroll
+--------------------------------------------------------------*/
+body::-webkit-scrollbar {
+  width: 10px;
+  background: #262626;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: white, 0.2;
+  border-radius: 10px;
+  border-right: 10px solid #C2A1F1;
+}
+.accordion-item{
+  font-family: "Raleway", Regular;
+}
