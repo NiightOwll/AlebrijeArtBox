@@ -1,0 +1,111 @@
+// PARTE USIEL
+//MODIFICADO POR DAVID
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: cuatacho;
+    src: url(./fonts/Cuatacho.otf);
+}
+
+@font-face {
+    font-family: Raleway-Bold;
+    src: url(./fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: Raleway-Regular;
+    src: url(./fonts/Raleway-Regular.ttf);
+}
+
+$gris: #F1F1F1;
+$blanco: white;
+$morado: #513973;
+$moradoletra: #4D3C72;
+$lila: #C2A1F1;
+$crema: #f2f2f2;
+$grisosc: #262626;
+$semiblack: #0d0d0d;
+
+body{
+    background-color: $blanco;
+    font-family: cuatacho;
+}
+
+a{
+    color: #4D3C72;
+    text-decoration : none;
+    &:visited{
+        color: $moradoletra;
+    }
+    &:hover{
+         color: #C2A1F1;
+    }
+}
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+.outer-container{
+    background:#513973;
+    width:100%;
+
+}
+p{
+    font-family: Raleway-Regular;
+
+}
+
+h1{
+    font-family: 'Cuatacho', cursive;
+    font-size: 50pt !important;
+    color: $crema;
+}
+.marcomorado{
+    float: right;
+    border-radius: 1em;
+    border-color: $morado;
+    border-style: solid;
+    border-width: 7px;
+    font-family: 'Cuatacho', cursive;
+    color: $lila;
+    width: 11em;
+    padding: 1em;
+}
+
+.puntos{
+    color: $lila;
+}
+
+.boton{
+    background-color: $morado;
+    color: $blanco;
+    border-radius: 1em;
+    font-family: 'Cuatacho', cursive;
+    padding: 1em;
+    text-align: center;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.textomorado{
+    color:$moradoletra;
+}
+.cuadroblanco{
+    background-color: $blanco;
+    border-radius: 1em;
+    padding: 1em;
+}
+.escribir{
+    border-color: $lila;
+    border-radius: 1em;
+    border-style: solid;
+    border-width: 3px;
+    background-color: $blanco;
+    color: $lila;
+    margin: 0.5em;
+    padding: 0.2em;
+}
